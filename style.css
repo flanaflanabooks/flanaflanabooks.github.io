@@ -1,0 +1,74 @@
+@import url("https://use.typekit.net/lyq3xmk.css");
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "neue-haas-unica", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 120%;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+.logo-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Disable highlight behaviour across all browsers */
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.logo {
+    width: 60vw;
+    max-width: 864px;
+    height: auto;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.locations {
+    display: flex;
+    gap: 24px;
+}
+
+.contact {
+    display: flex;
+    gap: 24px;
+}
+
+.contact p {
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+        width: 70vw;
+    }
+}
