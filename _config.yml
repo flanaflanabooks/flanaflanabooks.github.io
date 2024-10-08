@@ -1,0 +1,7 @@
+title: "My Site"              # The title of your site
+description: "A description"  # A brief description of your site
+url: "https://flanaflanabooks.github.io"  # The full URL of your site
+baseurl: ""
+
+theme: jekyll-theme-minimal
+
