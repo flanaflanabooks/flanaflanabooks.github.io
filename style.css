@@ -38,6 +38,11 @@ a {
     height: auto;
 }
 
+.logo g {
+    cursor: pointer;
+    pointer-events: bounding-box;
+}
+
 
 
 footer {
