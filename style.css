@@ -26,8 +26,7 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* Disable highlight behaviour across all browsers */
-    user-select: none;
+    user-select: none; /* Disable highlight behaviour across all browsers */
     -webkit-user-select: none;
     -ms-user-select: none;
 }
@@ -41,6 +40,7 @@ a {
 .logo g {
     cursor: pointer;
     pointer-events: bounding-box;
+    -webkit-tap-highlight-color: transparent; /* Disable flashing behaviour when tapping on mobile */
 }
 
 
